@@ -7,7 +7,7 @@
       Hello World!
       <script>
         const paramQuery = window.location.search;
-        const urlParams = URLSearchParams(paramQuery);
+        const urlParams = new URLSearchParams(paramQuery);
         console.log(urlParams.get("pw"))
       </script> 
 </body>
